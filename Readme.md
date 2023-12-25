@@ -35,7 +35,7 @@ This documentation provides details on how to use and interact with the RESTful 
 
 ### Installation
 
-1. Clone the repository:
+###1. Clone the repository:
 
    ```bash
    git clone <repository-url>
@@ -58,7 +58,7 @@ Here I have presented List of products in form of artPieces as its title, year, 
 The id of the artPieces are unique and auto incremented for every new art piece. It is not provided in the request for creating a new art piece.
 
 # API Endpoints
-1. Retrieve a List of Products(artPieces)
+###1. Retrieve a List of Products(artPieces)
 Endpoint: GET /api/artPieces
 
 Description: Retrieve a list of all products(artPieces).
@@ -82,7 +82,7 @@ Copy code
 }
   // ... other products
 ]
-2. Retrieve Details of a Specific Product(artPieces)
+###2. Retrieve Details of a Specific Product(artPieces)
 Endpoint: GET /api/artPieces/:id
 
 Description: Retrieve details of a specific product by ID.
@@ -104,7 +104,7 @@ Copy code
     "imageUrl": "https://m.media-amazon.com/images/I/81dT7CUY6GL._AC_UY327_FMwebp_QL65_.jpg"
 }
 
-3. Create a New Product(artPieces)
+###3. Create a New Product(artPieces)
 Endpoint: POST /api/artPieces
 
 Description: Create a new product(artPieces).
@@ -127,7 +127,7 @@ Copy code
     "artist":"rahul",
     "imageUrl": "https://m.media-amazon.com/images/I/81dT7CUY6GL._AC_UY327_FMwebp_QL65_.jpg"
 }
-4. Update Details of a Specific Product(artPieces)
+###4. Update Details of a Specific Product(artPieces)
 Endpoint: PUT /api/artPieces/:id
 
 Description: Update details of a specific product(artPieces) by ID.
@@ -147,7 +147,7 @@ Copy code
     "artist":"mohan",
     "imageUrl": "https://m.media-amazon.com/images/I/81dT7CUY6GL._AC_UY327_FMwebp_QL65_.jpg"
 }
-5. Delete a Product(artPieces)
+###5. Delete a Product(artPieces)
 Endpoint: DELETE /api/artPieces/:id
 
 Description: Delete a product(artPieces) by ID.

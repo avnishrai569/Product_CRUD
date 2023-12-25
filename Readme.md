@@ -9,19 +9,6 @@ This documentation provides details on how to use and interact with the RESTful 
 - Node.js installed on your machine
 - npm package manager
 
-### Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone <repository-url>
-   cd <repository-folder>
-
-## 
-For Task 7 (Documentation), you need to create a README.md file that provides comprehensive information about your API. Here's a template to get you started:
-
-markdown
-Copy code
 # RESTful API Documentation
 
 This documentation provides details on how to use and interact with the RESTful API developed using Node.js and TypeScript.

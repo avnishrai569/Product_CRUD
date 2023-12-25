@@ -22,15 +22,6 @@ This documentation provides details on how to use and interact with the RESTful 
 
 ### Installation
 
-###1. Clone the repository:
-
-   ```bash
-   git clone <repository-url>
-   cd <repository-folder>
-Install dependencies:
-
-bash
-Copy code
 npm install
 Running the Server
 Start the server with the following command:
